@@ -24,3 +24,11 @@ In your terminal, execute the below to submit your work.
 ```
 submit50 cs50/problems/2022/x/hello
 ```
+-check50
+- [x] :) hello.c exists
+- [x] :) hello.c compiles
+- [x] :) responds to name Emma
+- [x] :) responds to name Rodrigo
+
+-style50
+- [x] Looks good!
