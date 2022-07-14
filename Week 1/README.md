@@ -13,3 +13,9 @@
    -[Cash](https://cs50.harvard.edu/x/2022/psets/1/cash/) if feeling less comfortable
    -[Credit](https://cs50.harvard.edu/x/2022/psets/1/credit/) if feeling more comfortable
 If you submit both versions of Mario, we’ll record the higher of your two scores. If you submit both Cash and Credit, we’ll record the higher of your two scores.
+
+- [x] Hello
+- [x] Mario-less
+- [x] Mario-more
+- [x] Cash
+- [x] Credit
