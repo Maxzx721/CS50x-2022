@@ -1,0 +1,18 @@
+Set a vaiable called "number"
+Do while "number" < 1 or "number" > 8
+    Ask user input and store it into "number"
+End while
+Loop from 1 to "number"
+    Set variable temp = "number" - current iteration
+    While "temp" != 0
+        Print space
+        temp--
+    End while
+    Set "temp" = current iteration
+    While "temp" != 0
+        Print #
+        temp--
+    End while
+    Print skip line
+End loop
+End program
