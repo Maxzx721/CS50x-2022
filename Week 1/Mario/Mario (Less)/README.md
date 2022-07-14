@@ -101,3 +101,17 @@ In your terminal, execute the below to submit your work.
 ```
 submit50 cs50/problems/2022/x/mario/less
 ```
+-check50
+- [x] :) mario.c exists
+- [x] :) mario.c compiles
+- [x] :) rejects a height of -1
+- [x] :) rejects a height of 0
+- [x] :) handles a height of 1 correctly
+- [x] :) handles a height of 2 correctly
+- [x] :) handles a height of 8 correctly
+- [x] :) rejects a height of 9, and then accepts a height of 2
+- [x] :) rejects a non-numeric height of "foo"
+- [x] :) rejects a non-numeric height of ""
+
+-style50
+- [x] Looks good!
