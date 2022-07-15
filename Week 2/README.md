@@ -22,3 +22,7 @@ is yielding errors, try running
 help50 make readability
 ```
 instead!
+
+- [x] Readability
+- [x] Caesar
+- [x] Substitution
