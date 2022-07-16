@@ -19,6 +19,9 @@ Provided to you are three already-compiled C programs, `sort1`, `sort2`, and `so
 - Record your answers in `answers.txt`, along with an explanation for each program, by filling in the blanks marked `TODO`.
 
 ## Walkthrough
+```
+This video was recorded when the course was still using CS50 IDE for writing code. Though the interface may look different from your codespace, the behavior of the two environments should be largely similar!
+```
 https://youtu.be/-Bhxxw6JKKY
 
 ### Hints
