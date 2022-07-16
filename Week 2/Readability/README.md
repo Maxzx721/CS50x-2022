@@ -34,7 +34,7 @@ $ ./readability
 Text: As the average number of letters and words per sentence increases, the Coleman-Liau index gives the text a higher reading level. If you were to take this paragraph, for instance, which has longer words and sentences than either of the prior two examples, the formula would give the text an twelfth-grade reading level.
 Grade 12
 ```
-<details open>
+<details>
 <summary>Try It</summary>
 
 To try out the staff’s implementation of this problem, execute
@@ -63,7 +63,7 @@ $ ./readability
 Text: In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.
 In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.
 ```
-###Letters
+### Letters
 Now that you’ve collected input from the user, let’s begin to analyze that input by first counting the number of letters in the text. Consider letters to be uppercase or lowercase alphabetical character, not punctuation, digits, or other symbols.
 
 Add to `readability.c`, below `main`, a function called `count_letters` that takes one argument, a `string` of text, and that returns an `int`, the number of letters in that text. Be sure to add the function’s prototype, too, atop your file, so that `main` knows how to call it. Odds are the prototype should resemble the below:
@@ -79,7 +79,7 @@ Text: Alice was beginning to get very tired of sitting by her sister on the bank
 235 letters
 ```
 
-<details open>
+<details>
 <summary>Hint</summary>
   
 Declared in `ctype.h` is a function that you might find helpful, per [manual.cs50.io](https://manual.cs50.io/). If you use it, be sure to include that header file atop your own code!
@@ -133,7 +133,7 @@ where `L` is the average number of letters per 100 words in the text, and `S` is
 
 Modify `main` in `readability.c` so that instead of outputting the number of letters, words, and sentences, it instead outputs (only) the grade level as defined by the Coleman-Liau index (e.g. `"Grade 2"` or `"Grade 8" or the like`). Be sure to round the resulting index number to the nearest `int`!
 
-<details open>
+<details>
 <summary>Hints</summary>
   
 - Recall that `round` is declared in math.h, per [manual.cs50.io](https://manual.cs50.io/)!
