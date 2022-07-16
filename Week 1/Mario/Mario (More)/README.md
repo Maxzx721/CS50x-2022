@@ -1,6 +1,7 @@
 # Mario
 ## World 1-1
 Toward the beginning of World 1-1 in Nintendo’s Super Mario Brothers, Mario must hop over adjacent pyramids of blocks, per the below.
+
 ![image](https://user-images.githubusercontent.com/70191060/178887122-7429ca25-2525-485b-a874-e52d90bb8d4d.png)
 
 Let’s recreate those pyramids in C, albeit in text, using hashes (`#`) for bricks, a la the below. Each hash is a bit taller than it is wide, so the pyramids themselves will also be taller than they are wide.
@@ -73,10 +74,10 @@ Open your `mario.c` file to implement this problem as described!
 ## How to Test Your Code
 Does your code work as prescribed when you input
 
-- -1 (or other negative numbers)?
-- 0?
-- 1 through 8?
-- 9 or other positive numbers?
+- `-1` (or other negative numbers)?
+- `0`?
+- `1` through `8`?
+- `9` or other positive numbers?
 - letters or words?
 - no input at all, when you only hit Enter?
 
