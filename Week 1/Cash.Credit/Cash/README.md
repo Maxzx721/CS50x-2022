@@ -11,6 +11,12 @@ In `cash.c`, we’ve implemented most (but not all!) of a program that prompts t
 Note that, unlike functions that only have side effects, functions that return a value should do so explicitly with `return`! Take care not to modify the distribution code itself, only replace the given `TODO`s and the subsequent `return` value!  
 Note too that, recalling the idea of abstraction, each of your calculate functions should accept any value of `cents` , not just those values that the greedy algorithm might suggest. If `cents` is 85, for example, `calculate_dimes` should return 8.
 
+<details>
+<summary>Hint</summary>
+
+  - Recall that there are several sample programs in Week 1’s [Source Code](https://cdn.cs50.net/2021/fall/lectures/1/src1/) that illustrate how functions can return a value. You might find [discount1.c](https://cdn.cs50.net/2021/fall/lectures/1/src1/discount1.c) and [discount2.c](https://cdn.cs50.net/2021/fall/lectures/1/src1/discount2.c) insightful.
+</details>
+
 Your program should behave per the examples below.  
 ```
 $ ./cash
@@ -43,10 +49,10 @@ You can also execute the below to evaluate the correctness of your code using `c
 check50 cs50/problems/2022/x/cash
 ```
 
-<details open>
+<details>
 <summary>Is check50 failing to compile your code?</summary>
-<br>
-CS50x 2022’s version of Cash is quite different than CS50x 2021’s version. Last year’s version will fail to compile when checked by check50 (but not necessarily if you run it yourself, assuming your file consists of legal C code) due to the fact that in this new version you must implement five functions which the testing suite will test independently, beyond just checking for the final answer (as last year’s version did).
+
+  CS50x 2022’s version of Cash is quite different than CS50x 2021’s version. Last year’s version will **fail to compile** when checked by `check50` (but not necessarily if you run it yourself, assuming your file consists of legal C code) due to the fact that in this new version you must implement five functions which the testing suite will test independently, beyond just checking for the final answer (as last year’s version did).
 </details>
 
 And execute the below to evaluate the style of your code using `style50`.
