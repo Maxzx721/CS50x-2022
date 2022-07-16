@@ -24,10 +24,10 @@ Complete the implementation of `scrabble.c`, such that it determines the winner 
 - To find the value at the `n`th index of an array called `arr`, we can write `arr[n]`. We can apply this to strings as well, as strings are arrays of characters.
 - Recall that computers represent characters using [ASCII](https://www.asciitable.com/), a standard that represents each character as a number.
 
-<details open>
+<details>
 <summary>Not sure how to solve?</summary>
-<br>
-https://youtu.be/USiLkXuXJEg
+
+  [Scrabble - Solution - CS50 Labs 2020](https://youtu.be/USiLkXuXJEg)
 </details>
 
 ## How to Test Your Code
