@@ -47,11 +47,11 @@ Usage: ./substitution key
 <details>
 <summary>Try It</summary>
 
-To try out the staff’s implementation of this problem, execute
-```
-./substitution key
-```
-substituting a valid key in place of `key`, within [this sandbox](http://bit.ly/30Gnoru).
+  To try out the staff’s implementation of this problem, execute
+  ```
+  ./substitution key
+  ```
+  substituting a valid key in place of `key`, within [this sandbox](http://bit.ly/30Gnoru).
 </details>
 
 ## Specification
