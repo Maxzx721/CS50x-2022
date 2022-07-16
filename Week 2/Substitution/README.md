@@ -44,7 +44,7 @@ $ ./substitution 1 2 3
 Usage: ./substitution key
 ```
 
-<details open>
+<details>
 <summary>Try It</summary>
 
 To try out the staff’s implementation of this problem, execute
