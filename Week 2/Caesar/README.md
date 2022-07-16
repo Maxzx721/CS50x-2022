@@ -40,7 +40,7 @@ plaintext:  be sure to drink your Ovaltine
 ciphertext: or fher gb qevax lbhe Binygvar
 ```
 
-<details open>
+<details>
 <summary>Why</summary>
 
   [Christmas Story](https://youtu.be/9K4FsAHB-C8)
@@ -64,7 +64,7 @@ $ ./caesar 1 2 3
 Usage: ./caesar key
 ```
 
-<details open>
+<details>
 <summary>Why</summary>
 
   To try out the staff’s implementation of this problem, execute
@@ -93,7 +93,7 @@ How to begin? Let’s approach this problem one step at a time.
 ### Pseudocode
 First write, try to write a `main` function in `caesar.c` that implements the program using just pseudocode, even if not (yet!) sure how to write it in actual code.
 
-<details open>
+<details>
 <summary>Why</summary>
 
   There’s more than one way to do this, so here’s just one!
@@ -134,7 +134,7 @@ Usage: ./caesar key
 $ ./caesar 1
 ```
 
-<details open>
+<details>
 <summary>Why</summary>
 
   - Recall that you can print with `printf`.
@@ -147,7 +147,7 @@ Now that your program is (hopefully!) accepting input as prescribed, it’s time
 
 Add to `caesar.c`, below `main`, a function called, e.g., `only_digits` that takes a `string` as an argument and returns `true` if that `string` contains only digits, `0` through `9`, else it returns `false`. Be sure to add the function’s prototype above `main` as well.
 
-<details open>
+<details>
 <summary>Hints</summary>
 
   - Odds are you’ll want a prototype like:
@@ -175,7 +175,7 @@ Now modify `main` in such a way that it converts `argv[1]` to an `int`. You migh
 
 Then, implement a function called, e.g., `rotate`, that takes a `char` as input and also an `int`, and rotates that `char` by that many positions if it’s a letter (i.e., alphabetical), wrapping around from `Z` to `A` (and from `z` to `a`) as needed. If the `char` is not a letter, the function should instead return the same `char` unchanged.
 
-<details open>
+<details>
 <summary>Hints</summary>
 
   - Odds are you’ll want a prototype like:
@@ -205,7 +205,7 @@ Then, implement a function called, e.g., `rotate`, that takes a `char` as input 
 
 Then modify `main` in such a way that it prints `"ciphertext: "` and then iterates over every `char` in the user’s plaintext, calling `rotate` on each, and printing the return value thereof.
 
-<details open>
+<details>
 <summary>Hints</summary>
 
   - Recall that `printf` can print a `char` using `%c`.
