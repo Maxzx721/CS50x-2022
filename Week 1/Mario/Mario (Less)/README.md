@@ -77,13 +77,73 @@ to open the file called `pseudocode.txt` inside that directory.
 
 Write in `pseudocode.txt` some pseudocode that implements this program, even if not (yet!) sure how to write it in code. There’s no one right way to write pseudocode, but short English sentences suffice. Recall how we wrote [pseudocode for finding someone in a phone book](https://docs.google.com/presentation/d/1X3AMSenwZGSE6WxGpzoALAfMg2hmh1LYIJp3N2a1EYI/edit#slide=id.g41907da2bc_0_265). Odds are your pseudocode will use (or imply using!) one or more functions, conditionals, Boolean expressions, loops, and/or variables.
 
-## How to Test Your Code
+<details>
+<summary>Spoiler</summary>
+
+ There’s more than one way to do this, so here’s just one!
+
+ 1. Prompt user for height
+ 2. If height is less than 1 or greater than 8 (or not an integer at all), go back one step
+ 3. Iterate from 1 through height:
+    1. On iteration i, print i hashes and then a newline
+    
+ It’s okay to edit your own after seeing this pseudocode here, but don’t simply copy/paste ours into your own!
+</details>
+
+## Prompting for Input
+Whatever your pseudocode, let’s first write only the C code that prompts (and re-prompts, as needed) the user for input. Open the file called `mario.c` inside of your `mario` directory. (Remember how?)
+
+Now, modify `mario.c` in such a way that it prompts the user for the pyramid’s height, storing their input in a variable, re-prompting the user again and again as needed if their input is not a positive integer between 1 and 8, inclusive. Then, simply print the value of that variable, thereby confirming (for yourself) that you’ve indeed stored the user’s input successfully, a la the below.
+```
+$ ./mario
+Height: -1
+Height: 0
+Height: 42
+Height: 50
+Height: 4
+Stored: 4
+```
+
+<details>
+<summary>Hints</summary>
+
+ - Recall that you can compile your program with `make`.
+ - Recall that you can print an `int` with `printf` using `%i`.
+ - Recall that you can get an integer from the user with `get_int`.
+ - Recall that `get_int` is declared in `cs50.h`.
+ - Recall that we prompted the user for a positive integer in lecture using a `do while` loop in [mario.c](https://cdn.cs50.net/2021/fall/lectures/1/src1/coins2.c).
+</details>
+
+## Right-Aligning with Dots
+Let’s now right-align that pyramid by pushing its hashes to the right by prefixing them with dots (i.e., periods), a la the below.
+```
+.......#
+......##
+.....###
+....####
+...#####
+..######
+.#######
+########
+```
+
+Modify `mario.c` in such a way that it does exactly that!
+<details>
+<summary>Hint</summary>
+
+ Notice how the number of dots needed on each line is the “opposite” of the number of that line’s hashes. For a pyramid of height 8, like the above, the first line has but 1 hash and thus 7 dots. The bottom line, meanwhile, has 8 hashes and thus 0 dots. Via what formula (or arithmetic, really) could you print that many dots?
+</details>
+
+## Removing the Dots
+All that remains now is a finishing flourish! Modify `mario.c` in such a way that it prints spaces instead of those dots!
+
+### How to Test Your Code
 Does your code work as prescribed when you input
 
-- -1 (or other negative numbers)?
-- 0?
-- 1 through 8?
-- 9 or other positive numbers?
+- `-1` (or other negative numbers)?
+- `0`?
+- `1` through `8`?
+- `9` or other positive numbers?
 - letters or words?
 - no input at all, when you only hit Enter?
 
@@ -96,11 +156,18 @@ Execute the below to evaluate the style of your code using `style50`.
 style50 mario.c
 ```
 
+<details>
+<summary>Hint</summary>
+
+ A space is just a press of your space bar, just as a period is just a press of its key! Just remember that `printf` requires that you surround both with double quotes!
+</details>
+
 ## How to Submit
 In your terminal, execute the below to submit your work.
 ```
 submit50 cs50/problems/2022/x/mario/less
 ```
+
 -check50
 - [x] :) mario.c exists
 - [x] :) mario.c compiles
