@@ -46,7 +46,6 @@ submit50 cs50/labs/2022/x/sort
 ```
 
 -check50
-- []
-
--style50
-- [x] Looks good!
+- [x] :) answers.txt exists
+- [x] :) answers all questions
+- [x] :) correctly identifies each sort
