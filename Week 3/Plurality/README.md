@@ -103,7 +103,20 @@ submit50 cs50/problems/2022/x/plurality
 ```
 
 -check50
-- []
+- [x] :) plurality.c exists
+- [x] :) plurality compiles
+- [x] :) vote returns true when given name of first candidate
+- [x] :) vote returns true when given name of middle candidate
+- [x] :) vote returns true when given name of last candidate
+- [x] :) vote returns false when given name of invalid candidate
+- [x] :) vote produces correct counts when all votes are zero
+- [x] :) vote produces correct counts after some have already voted
+- [x] :) vote leaves vote counts unchanged when voting for invalid candidate
+- [x] :) print_winner identifies Alice as winner of election
+- [x] :) print_winner identifies Bob as winner of election
+- [x] :) print_winner identifies Charlie as winner of election
+- [x] :) print_winner prints multiple winners in case of tie
+- [x] :) print_winner prints all names when all candidates are tied
 
 -style50
 - [x] Looks good!
