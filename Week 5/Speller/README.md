@@ -163,6 +163,7 @@ Alright, the challenge now before you is to implement, in order, `load`, `hash`,
 - Your spell checker may only take `text` and, optionally, `dictionary` as input. Although you might be inclined (particularly if among those more comfortable) to “pre-process” our default dictionary in order to derive an “ideal hash function” for it, you may not save the output of any such pre-processing to disk in order to load it back into memory on subsequent runs of your spell checker in order to gain an advantage.
 - Your spell checker must not leak any memory. Be sure to check for leaks with `valgrind`.
 - **The hash function you write should ultimately be your own, not one you search for online.**  
+
 Alright, ready to go?
 
 - Implement `load`.
