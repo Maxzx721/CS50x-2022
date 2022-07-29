@@ -265,7 +265,7 @@ How to assess just how fast (and correct) your code is? Well, as always, feel fr
 $ ./speller50 texts/lalaland.txt
 ```
 
-##How to Submit
+## How to Submit
 In your terminal, execute the below to submit your work.
 
 ```
