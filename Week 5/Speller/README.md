@@ -273,6 +273,15 @@ submit50 cs50/problems/2022/x/speller
 ```
 
 -check50
-
+- [x] :) dictionary.c exists
+- [x] :) speller compiles
+- [x] :) handles most basic words properly
+- [x] :) handles min length (1-char) words
+- [x] :) handles max length (45-char) words
+- [x] :) handles words with apostrophes properly
+- [x] :) spell-checking is case-insensitive
+- [x] :) handles substrings properly
+- [x] :) program is free of memory errors
 
 -style50
+- [x] Looks good!
