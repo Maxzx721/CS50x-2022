@@ -56,16 +56,16 @@ submit50 cs50/problems/2022/x/sentimental/cash
 ```
 
 -check50
-:) cash.py exists
-:) input of 0.41 yields output of 4
-:) input of 0.01 yields output of 1
-:) input of 0.15 yields output of 2
-:) input of 1.6 yields output of 7
-:) input of 23 yields output of 92
-:) input of 4.2 yields output of 18
-:) rejects a negative input like -1
-:) rejects a non-numeric input of "foo" 
-:) rejects a non-numeric input of "" 
+- [x] :) cash.py exists
+- [x] :) input of 0.41 yields output of 4
+- [x] :) input of 0.01 yields output of 1
+- [x] :) input of 0.15 yields output of 2
+- [x] :) input of 1.6 yields output of 7
+- [x] - [x] :) input of 23 yields output of 92
+- [x] :) input of 4.2 yields output of 18
+- [x] :) rejects a negative input like -1
+- [x] :) rejects a non-numeric input of "foo" 
+- [x] :) rejects a non-numeric input of "" 
 
 -style50
 - [x] Looks good!
