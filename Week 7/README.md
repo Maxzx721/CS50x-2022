@@ -5,3 +5,6 @@
 2. Run `update50` in your codespace’s terminal window to ensure your codespace is up-to-date and, when prompted, click **Rebuild now**
 3. Submit [Movies](https://cs50.harvard.edu/x/2022/psets/7/movies/)
 4. Submit [Fiftyville](https://cs50.harvard.edu/x/2022/psets/7/fiftyville/)
+
+## Advice
+- Head to [w3schools.com/sql](https://www.w3schools.com/sql/) for a handy reference!
